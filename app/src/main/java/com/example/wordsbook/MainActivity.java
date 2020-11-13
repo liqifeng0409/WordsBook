@@ -181,6 +181,7 @@ public class MainActivity extends AppCompatActivity implements
 
     }
 
+    //修改单词
     private void UpdateDialog(final String strId, final String strWord, final String strMeaning
             , final String strSample) {
         final TableLayout tableLayout = (TableLayout) getLayoutInflater()
@@ -217,6 +218,7 @@ public class MainActivity extends AppCompatActivity implements
 
     }
 
+    //查找单词
     private void SearchDialog() {
         final TableLayout tableLayout = (TableLayout) getLayoutInflater()
                 .inflate(R.layout.searchterm, null);
